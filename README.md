@@ -7,7 +7,7 @@ Start a Command Prompt as an `Administrator`.
 ### Windows
 ```
 slmgr.vbs -ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
-slmgr.vbs -skms kms.srv.crsoo.com:1688
+slmgr.vbs -skms kms.srv.crsoo.com
 slmgr.vbs -ato
 ```
 
@@ -15,6 +15,7 @@ slmgr.vbs -ato
 ```
 cd C:\Program Files\Microsoft Office\Office15
 cscript ospp.vbs /inpkey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+cscript ospp.vbs /sethst kms.srv.crsoo.com
 cscript ospp.vbs /act
 ```
 
