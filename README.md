@@ -15,7 +15,7 @@ slmgr.vbs -ato
 ```
 cd C:\Program Files\Microsoft Office\Office15
 cscript ospp.vbs /inpkey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
-cscript ospp.vbs /sethst kms.srv.crsoo.com
+cscript ospp.vbs /sethst:kms.srv.crsoo.com
 cscript ospp.vbs /act
 ```
 
